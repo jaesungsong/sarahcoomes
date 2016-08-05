@@ -1169,13 +1169,35 @@ input.searchform-button:active {
 /*******************************************************************
 ** jsong custom CSS ************************************************
 *******************************************************************/
+.container .item .post-title {
+  text-align:center;
+	
+}
+.page-id-176 .blogposts{
+	background-color:#fff;
+}
+.page-id-176 .blogposts .row{
+	padding:0;
+}
+.page-id-176 .blogposts .row .blog-header h3{
+	display:none;
+}
+.page-id-176 .blogposts .row .blog-header h2 {
+	text-transform:lowercase;
+  font-size: 30px;
+  font-weight: 800;
+	font-family:inherit;
+  margin-bottom: 10px;
+	margin-top: 26px;
+
+}
 .page .content hr{
 	border-top: 1em solid #333;
 }
 #showLeftPush{
 	background-color:#333;
 }
-.fa-bars:before {
+.fa-times:before,.fa-bars:before {
   color:#fff;
 }
 #showLeftPush
@@ -1308,10 +1330,7 @@ article .post-meta{
 	.blogposts .blog-item {
 		padding: 20px;
 	}
-	
-	.container .item .post-title {
-	  margin-left: 48px;
-	}
+
 }
 
 @media screen and (min-width: 992px) {
